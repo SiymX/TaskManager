@@ -3,6 +3,14 @@ This program is a JavaScript language implementation of a Task Manager, providin
 It was designed with functionality, efficiency, and ease of use, and it also boasts a range of features that streamline task organization and management.
 
 
+
+## Table of Contents
+1. [Features](#features)
+2. [Installtion](#installation)
+3. [Usage](#usage)
+
+
+
 # Features
 - **Task Creation**: Users can create tasks with a title, description, and due date.
 - **Task Organization**: Tasks can be sorted by either priority or due date, and it will be filtered by completion status.
