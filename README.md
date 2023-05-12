@@ -4,7 +4,7 @@ It was designed with functionality, efficiency, and ease of use, and it also boa
 
 
 
-## Table of Contents
+# Table of Contents
 1. [Features](#features)
 2. [Installtion](#installation)
 3. [Usage](#usage)
