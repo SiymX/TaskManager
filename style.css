@@ -7,14 +7,13 @@ body {
 }
 
 h1 {
-  font-family: 'Lora', serif;
-	font-size: 50px;
-	margin-bottom: 20px;
+    font-family: 'Lora', serif;
+	  font-size: 50px;
+	  margin-bottom: 20px;
     text-align: center;
 }
 h2 {
     font-family: 'Open Sans', sans-serif;
-    font: Tahoma;
     font-weight: lighter;
     font-size: small;
     text-align: center;
@@ -52,7 +51,7 @@ h2 {
     outline: none;
 }
 
-#task-form button {
+  #task-form button {
     padding: 10px;
     background: #333;
     color: #fff;
@@ -60,13 +59,13 @@ h2 {
     border-radius: 5px;
     cursor: pointer;
     transition: background .3s;
-}
+  }
 
-#task-form button:hover {
+  #task-form button:hover {
     background: #777;
-}
+  }
 
-#task-list {
+  #task-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -317,10 +316,9 @@ button span {
     cursor: pointer;
   }
   
-  .fa-bell,
-  .fa-exclamation-circle {
+  .fa-bell {
     font-size: 24px;
-    color: #333;
+    color: ghostwhite;
   }
   
 
