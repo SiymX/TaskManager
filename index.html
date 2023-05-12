@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Task Manager</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div id="task-manager">
+    <h1>Task Manager</h1>
+    <h2>Developed by Siym | Beta Test 1.5.3</h2>
+    <form id="task-form">
+      <input type="text" id="title" placeholder="Title" required>
+      <textarea id="description" placeholder="Description" required></textarea>
+      <input type="date" id="dueDate" required>
+      <input type="hidden" id="editIndex">
+      <button id="taskButton">Add Task</button>
+    </form>
+    <div id="sort-filter-container">
+      <div id="sort-by-container">
+        <label for="sort-by">Sort By:</label>
+        <select id="sort-by">
+          <option value="due-date">Due Date</option>
+          <option value="priority">Priority</option>
+        </select>
+      </div>
+      <div id="filter-by-container">
+        <label for="filter-by">Filter By:</label>
+        <select id="filter-by">
+          <option value="all">All</option>
+          <option value="completed">Completed</option>
+          <option value="incomplete">Incomplete</option>
+        </select>
+      </div>
+    </div>
+    <div id="task-list"></div>
+    <div id="reminder-notification">
+      <div id="notification-icon">
+        <span id="notification-count">0</span>
+        <i class="fas fa-bell"></i>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+<footer>
+	<p>Copyright &copy; Khandakar Sayeem. All Rights Reserved. 2023</p>
+</footer>
+
+</html>
