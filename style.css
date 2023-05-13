@@ -1,5 +1,4 @@
 body {
-    font-family: 'Arial', sans-serif;
     background: linear-gradient(to right, #2C3E50, #4CA1AF);
     margin: 0;
     padding: 0;
@@ -19,6 +18,9 @@ h2 {
     text-align: center;
 
 }
+
+
+
 
 
 #task-manager {
