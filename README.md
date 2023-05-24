@@ -1,3 +1,6 @@
+
+![taskmanGIT](https://github.com/SiymX/TaskManager/assets/63435885/60eb1957-5d84-4639-ae2b-c4e52cbff059)
+
 # TaskManager
 This program is a JavaScript language implementation of a Task Manager, providing a dynamic and user-friendly interface for task management. 
 It was designed with functionality, efficiency, and ease of use, and it also boasts a range of features that streamline task organization and management.
